@@ -1028,12 +1028,15 @@
  
 /* --------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
- .header-top {
-     background:url(../images/post.png);
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
-     padding-bottom: 90px;
+.header-top {
+    background: url(../images/post.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
 }
+
  .header {
      position: absolute;
      z-index: 999;
