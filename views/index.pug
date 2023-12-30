@@ -1,0 +1,213 @@
+doctype html
+html(lang='es')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width,initial-scale=1')
+        meta(name='viewport', content='initial-scale=1,maximum-scale=1')
+        title Abba Items Store
+        meta(name='keywords', content='bisutería, moda, anillos, aretes, joyería, tendencias de moda, accesorios de moda, Abba Items Store')
+        meta(name='description', content='Descubre lo último en moda y bisutería en Abba Items Store. Ofrecemos una amplia selección de anillos, aretes y artículos de moda de temporada. Explora la fusión perfecta de moda y elegancia.')
+        meta(name='author', content='Abba Items Store')
+        meta(property='og:title', content='Abba Items Store')
+        meta(property='og:description', content='Descubre lo último en moda y bisutería en Abba Items Store. Ofrecemos una amplia selección de anillos, aretes y artículos de moda de temporada. Explora la fusión perfecta de moda y elegancia.')
+        meta(property='og:image', content='/public/images/tu-imagen-para-redes-sociales.jpg')
+        link(rel='stylesheet', href='/public/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/public/css/style.css')
+        link(rel='stylesheet', href='/public/css/responsive.css')
+        link(rel='icon', href='/public/images/logo_abba_fondo.png')
+        link(rel='stylesheet', href='/public/css/jquery.mCustomScrollbar.min.css')
+        link(rel='stylesheet', href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', media='screen')
+
+        //
+          [if lt IE 9]>
+                <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+                <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]
+    body.main-layout
+        .loader_bg
+            div.text-center.py-5
+                img(src='/public/images/logo_abba.png', style="max-height:140px;" alt='#').img-fluid
+            .loader
+                img(src='/public/images/loading.gif', alt='#')
+        header#header_top
+            .header-top
+                .header
+                    .container
+                        .row
+                            .col-xl-3.col-lg-3.col-md-3.col-sm-3.col.logo_section
+                                .full
+                                    .center-desk
+                                        .logo
+                                            a(href='index ')
+                                                img(src='/public/images/logo_abba.png', style="max-height:175px;" alt='#').img-fluid
+                            .col-xl-9.col-lg-9.col-md-9.col-sm-9
+                                .menu-area
+                                    .limit-box
+                                        nav.main-menu
+                                            ul.menu-area-main
+                                                li.active
+                                                    a(href='index ') Home
+                                                li
+                                                    a(href='#jewellery') Abba Items
+                                                li
+                                                    a(href='#contact') Contacto
+
+                section.slider_section
+                    .banner_main
+                        .container
+                            .row.d_flex.my-3
+                                .col-md-6.col-12
+                                    .text-bg.p-4.my-5
+                                        h1 Bienvenidos
+                                        span
+                                            | Explora la fusión perfecta de moda y elegancia en Abba.
+                                        a(href='#contact') Contacto
+                                .col-md-6.col-12
+                                    .text-img
+                                        figure
+                                            img(src='/public/images/img.png')
+        #jewellery.Best
+
+            .container
+                .row
+                    .col-md-12
+                        .titlepage
+                            h2 Abba Items Store
+                            p Somos una empresa 100% mexicana dedicada a complacer a nuestros clientes con lo último en moda y bisutería. Ofrecemos aretes, anillos y artículos de moda de temporada accesibles para todo el público. En Abba Items Store, nos apasiona la excelencia y la elegancia en cada pieza que ofrecemos.
+
+                .row
+                    .col-md-12
+                        // Primer bloque para aretes
+                        .best_main
+                            .row.d_flex
+                                .col-xl-7.col-lg-7.col-md-7.col-sm-12
+                                    .best_text
+                                        p En Abba Items Store, sabemos que la calidad y el estilo son fundamentales. Cada arete que ofrecemos es cuidadosamente seleccionado para brindarte lo mejor. Descubre la accesibilidad y el estilo que te mereces.
+
+                                .col-xl-5.col-lg-5.col-md-5.col-sm-12
+                                    .best_img
+                                        h4 Aretes en Abba
+                                        figure
+                                            img(src='/public/images/aretes.png' style="border-radius:100%;" alt='#').img-fluid
+
+                        // Segundo bloque para anillos
+                        .best_main
+                            .row.d_flex
+                                .col-xl-5.col-lg-5.col-md-5.col-sm-12
+                                    .best_img.croos_rt
+                                        h4 Anillos en Abba
+                                        figure
+                                            img(src='/public/images/beimg2.png')
+                                .col-xl-7.col-lg-7.col-md-7.col-sm-12
+                                    .best_text.flot_left
+                                        p Explora la sofisticación y la innovación con nuestros diseños de anillos accesibles. En Abba Items Store, nos esforzamos por ofrecerte lo mejor en joyería para que puedas expresar tu estilo único.
+
+                        // Tercer bloque para artículos de moda de temporada
+                        .best_main.pa_bot
+                            .row.d_flex
+                                .col-xl-7.col-lg-7.col-md-7.col-sm-12
+                                    .best_text
+                                        p Descubre la armonía entre la elegancia y la modernidad con nuestros artículos de moda de temporada. Cada detalle está cuidadosamente diseñado para resaltar tu belleza. Explora la diversidad de estilos en Abba Items Store.
+
+                                .col-xl-5.col-lg-5.col-md-5.col-sm-12
+                                    .best_img.d_none
+                                        h4 Articulo de moda en Abba
+                                        figure
+                                            img(src='/public/images/moda.png' style="border-radius:100%;" alt='#').img-fluid
+
+
+
+
+        #contact.contact.py-5
+            .container
+                .row
+                    .col-md-12
+                        .titlepage
+                            h2 Contacta con nosotros
+                            p Si deseas ponerte en contacto con nosotros y obtener más información, puedes hacerlo a través de nuestras redes sociales, WhatsApp o correo electrónico. Estamos aquí para ayudarte.
+
+                .row
+                    .col-lg-6.col-md-12.col-12.text-center
+                        .call_now2.my-3
+
+                            div.my-4
+                                h3 Contacto por email
+                                a.mx-1
+                                    img(src='/public/images/email.png', style="max-height:42px;" alt='#').img-fluid
+                                a(style="font-size:20px;").mx-2.fw-bold abbaitemsstore@gmail.com
+
+                            div.my-4
+                                h3 Contacto por Whatsapp
+                                a.mx-1
+                                    img(src='/public/images/whatsapp.png', style="max-height:42px;" alt='#').img-fluid
+                                a(style="font-size:20px;").mx-2.fw-bold  +527714349366
+
+                            div.my-4
+                                h3 Síguenos en redes sociales.
+                                a(href='#').mx-1
+                                    img(src='/public/images/facebook.png', style="max-height:42px;" alt='#').img-fluid
+                                a(href='#').mx-1
+                                    img(src='/public/images/instagram.png', style="max-height:42px;" alt='#').img-fluid
+                                a(style="font-size:20px;").mx-2.fw-bold @abbaitemsstore
+
+                    .col-lg-6.col-md-12.col-12
+                        .rable-box
+                            figure
+                                img(src='/public/images/cac.png', alt='#')
+
+
+                        //.contact
+                          form
+                            .row
+                              .col-sm-12
+                                input.contactus(placeholder='Name', type='text', name='Name')
+                              .col-sm-12
+                                input.contactus(placeholder='Phone Number', type='text', name='Phone Number')
+                              .col-sm-12
+                                input.contactus(placeholder='Email', type='text', name='Email')
+                              .col-sm-12
+                                textarea.textarea(placeholder='Message', type='text', name='Message')
+                              .col-sm-12
+                                button.send Send
+
+        a(href='#header_top', class='back-to-top')
+            img(src='/public/images/flecha-hacia-arriba.png', style="max-height:55px;" alt='#').img-fluid
+
+        footer.footer
+            .container
+                .row
+                    .col-md-12.text-center
+                        div.text-center.my-3
+                            img(src='/public/images/logo_abba.png', style="max-height:220px;" alt='#').img-fluid
+                        div
+                            h6 Explora la fusión perfecta de moda y elegancia en Abba.
+
+
+                .copyright
+                    .container.text-center
+                        p(style="font-size:14px;")
+                            | © 2024 Abba Items Store.
+                        a.my-1(href='https://mikerosasdev.com/') Desarrollado por Mike Rosas Dev
+
+        script(src='/public/js/jquery.min.js')
+        script(src='/public/js/popper.min.js')
+        script(src='/public/js/bootstrap.bundle.min.js')
+        script(src='/public/js/jquery-3.0.0.min.js')
+        script(src='/public/js/plugin.js')
+        script(src='/public/js/jquery.mCustomScrollbar.concat.min.js')
+        script(src='/public/js/custom.js')
+        script(src='https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')
+        script.
+            // JavaScript para mostrar/ocultar el botón al hacer scroll
+            document.addEventListener('DOMContentLoaded', function () {
+                var backToTopButton = document.querySelector('.back-to-top');
+
+                window.addEventListener('scroll', function () {
+                    if (window.scrollY > 200) {
+                        backToTopButton.style.display = 'block';
+                    } else {
+                        backToTopButton.style.display = 'none';
+                    }
+                });
+            });
